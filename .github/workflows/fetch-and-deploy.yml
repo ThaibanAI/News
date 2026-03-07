@@ -1,0 +1,33 @@
+name: Fetch Nitter RSS and Deploy
+on:
+  schedule:
+    - cron: '*/10 * * * *' # every 10 minutes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install dependencies
+        run: npm ci
+      - name: Fetch Nitter RSS
+        run: node scripts/fetch-nitter-rss.js
+      - name: Commit data if changed
+        run: |
+          git config user.name "ThaibanAI Bot"
+          git config user.email "thaibanai@local"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add data/news.json
+            git commit -m "chore: update news.json from nitter feeds"
+            git push
+          else
+            echo "No changes"
+          fi
