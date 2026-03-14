@@ -1,322 +1,162 @@
 [
   {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032606300094321077#m",
-    "url": "https://nitter.net/AJABreaking/status/2032606300094321077#m",
-    "title": "عاجل | ترمب: إيران كان لديها خطط للاستيلاء على منطقة الشرق الأوسط بأسرها ومحو إسرائيل تماما وتلك الخطط ماتت الآن",
-    "content": "عاجل | ترمب: إيران كان لديها خطط للاستيلاء على منطقة الشرق الأوسط بأسرها ومحو إسرائيل تماما وتلك الخطط ماتت الآن",
-    "pubDate": "Fri, 13 Mar 2026 23:54:40 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032605671594541444#m",
-    "url": "https://nitter.net/AJABreaking/status/2032605671594541444#m",
-    "title": "عاجل | وزارة الدفاع #السعودية: اعتراض وتدمير 5 مسيرات في المنطقة الشرقية",
-    "content": "عاجل | وزارة الدفاع #السعودية: اعتراض وتدمير 5 مسيرات في المنطقة الشرقية",
-    "pubDate": "Fri, 13 Mar 2026 23:52:10 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032602273507954807#m",
-    "url": "https://nitter.net/AJABreaking/status/2032602273507954807#m",
-    "title": "عاجل | حزب الله: قصفنا بالصواريخ الموقع الإسرائيلي المستحدث في نمر الجمل مقابل بلدة علما الشعب",
-    "content": "عاجل | حزب الله: قصفنا بالصواريخ الموقع الإسرائيلي المستحدث في نمر الجمل مقابل بلدة علما الشعب",
-    "pubDate": "Fri, 13 Mar 2026 23:38:40 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032602149788561853#m",
-    "url": "https://nitter.net/AJABreaking/status/2032602149788561853#m",
-    "title": "عاجل | وول ستريت جورنال عن مسؤول أمريكي: مقتل 13 جنديا أمريكيا وإصابة 210 بينهم 10 بجروح خطرة بعد أسبوعين على الحرب",
-    "content": "عاجل | وول ستريت جورنال عن مسؤول أمريكي: مقتل 13 جنديا أمريكيا وإصابة 210 بينهم 10 بجروح خطرة بعد أسبوعين على الحرب",
-    "pubDate": "Fri, 13 Mar 2026 23:38:11 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032600764808376431#m",
-    "url": "https://nitter.net/AJABreaking/status/2032600764808376431#m",
-    "title": "عاجل | حزب الله: قصفنا بالصواريخ تجمعا لجنود العدو الإسرائيلي في موقع بلاط المستحدث في جنوب #لبنان",
-    "content": "عاجل | حزب الله: قصفنا بالصواريخ تجمعا لجنود العدو الإسرائيلي في موقع بلاط المستحدث في جنوب #لبنان",
-    "pubDate": "Fri, 13 Mar 2026 23:32:40 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032600511707279548#m",
-    "url": "https://nitter.net/AJABreaking/status/2032600511707279548#m",
-    "title": "عاجل | مصدر أمني عراقي للجزيرة: استهداف مقر تابع للواء ٤٠ بالحشد الشعبي وسط #بغداد",
-    "content": "عاجل | مصدر أمني عراقي للجزيرة: استهداف مقر تابع للواء ٤٠ بالحشد الشعبي وسط #بغداد",
-    "pubDate": "Fri, 13 Mar 2026 23:31:40 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032600258723590466#m",
-    "url": "https://nitter.net/AJABreaking/status/2032600258723590466#m",
-    "title": "عاجل | مصدر أمني عراقي للجزيرة: سقوط طائرة مسيرة على منزل وسط #بغداد",
-    "content": "عاجل | مصدر أمني عراقي للجزيرة: سقوط طائرة مسيرة على منزل وسط #بغداد",
-    "pubDate": "Fri, 13 Mar 2026 23:30:40 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032598244392423528#m",
-    "url": "https://nitter.net/AJABreaking/status/2032598244392423528#m",
-    "title": "عاجل | وكالة تسنيم الإيرانية: مقتل طفلة في عدوان أمريكي صهيوني استهدف محافظة خوزستان جنوب غرب البلاد",
-    "content": "عاجل | وكالة تسنيم الإيرانية: مقتل طفلة في عدوان أمريكي صهيوني استهدف محافظة خوزستان جنوب غرب البلاد",
-    "pubDate": "Fri, 13 Mar 2026 23:22:39 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032596858900533484#m",
-    "url": "https://nitter.net/AJABreaking/status/2032596858900533484#m",
-    "title": "عاجل | مراسل #الجزيرة: دوي انفجارات في العاصمة العراقية #بغداد",
-    "content": "عاجل | مراسل #الجزيرة: دوي انفجارات في العاصمة العراقية #بغداد",
-    "pubDate": "Fri, 13 Mar 2026 23:17:09 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032595853496512574#m",
-    "url": "https://nitter.net/AJABreaking/status/2032595853496512574#m",
-    "title": "عاجل | حزب الله: هاجمنا بالمسيرات قاعدة عين شيمر للدفاع الجوي الصاروخي شرق الخضيرة",
-    "content": "عاجل | حزب الله: هاجمنا بالمسيرات قاعدة عين شيمر للدفاع الجوي الصاروخي شرق الخضيرة",
-    "pubDate": "Fri, 13 Mar 2026 23:13:09 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032595097158664658#m",
-    "url": "https://nitter.net/AJABreaking/status/2032595097158664658#m",
-    "title": "عاجل | الحرس الثوري: استهدفنا رادار إنذار ومراكز قيادة ومركز تجمع للقوات الأمريكية بالظفرة بصواريخ كروز وباليستية",
-    "content": "عاجل | الحرس الثوري: استهدفنا رادار إنذار ومراكز قيادة ومركز تجمع للقوات الأمريكية بالظفرة بصواريخ كروز وباليستية",
-    "pubDate": "Fri, 13 Mar 2026 23:10:09 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032594593481441682#m",
-    "url": "https://nitter.net/AJABreaking/status/2032594593481441682#m",
-    "title": "عاجل | منصات إيرانية محلية: انفجار في جزيرة خارك وميناء غناوه بمحافظة بوشهر جنوب غرب البلاد",
-    "content": "عاجل | منصات إيرانية محلية: انفجار في جزيرة خارك وميناء غناوه بمحافظة بوشهر جنوب غرب البلاد",
-    "pubDate": "Fri, 13 Mar 2026 23:08:09 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032594467920756801#m",
-    "url": "https://nitter.net/AJABreaking/status/2032594467920756801#m",
-    "title": "عاجل | الحرس الثوري الإيراني: هجمات قواتنا البحرية مستمرة حتى تدمير كل القواعد الأمريكية الإرهابية في المنطقة",
-    "content": "عاجل | الحرس الثوري الإيراني: هجمات قواتنا البحرية مستمرة حتى تدمير كل القواعد الأمريكية الإرهابية في المنطقة",
-    "pubDate": "Fri, 13 Mar 2026 23:07:39 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032594349645541531#m",
-    "url": "https://nitter.net/AJABreaking/status/2032594349645541531#m",
-    "title": "عاجل | ترمب: سيكون من الحكمة على الجيش الإيراني ومن يتورط مع هذا النظام الإرهابي إلقاء أسلحتهم وإنقاذ بلادهم",
-    "content": "عاجل | ترمب: سيكون من الحكمة على الجيش الإيراني ومن يتورط مع هذا النظام الإرهابي إلقاء أسلحتهم وإنقاذ بلادهم",
-    "pubDate": "Fri, 13 Mar 2026 23:07:11 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032593713810055348#m",
-    "url": "https://nitter.net/AJABreaking/status/2032593713810055348#m",
-    "title": "عاجل | ترمب: إيران لن تمتلك سلاحا نوويا أبدا ولن تحظى بالقدرة على تهديد الولايات المتحدة أو الشرق الأوسط أو العالم",
-    "content": "عاجل | ترمب: إيران لن تمتلك سلاحا نوويا أبدا ولن تحظى بالقدرة على تهديد الولايات المتحدة أو الشرق الأوسط أو العالم",
-    "pubDate": "Fri, 13 Mar 2026 23:04:39 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032593595631300820#m",
-    "url": "https://nitter.net/AJABreaking/status/2032593595631300820#m",
-    "title": "عاجل | ترمب: إيران لا تمتلك أي قدرة للدفاع عن أي هدف نختار مهاجمته وليس بوسعهم فعل أي شيء حيال ذلك",
-    "content": "عاجل | ترمب: إيران لا تمتلك أي قدرة للدفاع عن أي هدف نختار مهاجمته وليس بوسعهم فعل أي شيء حيال ذلك",
-    "pubDate": "Fri, 13 Mar 2026 23:04:11 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032593461237387461#m",
-    "url": "https://nitter.net/AJABreaking/status/2032593461237387461#m",
-    "title": "عاجل | ترمب: إذا أقدمت #إيران على إعاقة المرور عبر مضيق هرمز فسأعيد النظر بقرار محو البنية التحتية النفطية لجزيرة خارك",
-    "content": "عاجل | ترمب: إذا أقدمت #إيران على إعاقة المرور عبر مضيق هرمز فسأعيد النظر بقرار محو البنية التحتية النفطية لجزيرة خارك",
-    "pubDate": "Fri, 13 Mar 2026 23:03:39 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032593019350782083#m",
-    "url": "https://nitter.net/AJABreaking/status/2032593019350782083#m",
-    "title": "عاجل | ترمب: الغارة الجوية دمرت تدميرا شاملا كل هدف عسكري في جزيرة خارك الإيرانية",
-    "content": "عاجل | ترمب: الغارة الجوية دمرت تدميرا شاملا كل هدف عسكري في جزيرة خارك الإيرانية",
-    "pubDate": "Fri, 13 Mar 2026 23:01:54 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032592579858932026#m",
-    "url": "https://nitter.net/AJABreaking/status/2032592579858932026#m",
-    "title": "عاجل | ترمب: القيادة المركزية الأمريكية نفذت قبل لحظات واحدة من أقوى الغارات الجوية في تاريخ الشرق الأوسط",
-    "content": "عاجل | ترمب: القيادة المركزية الأمريكية نفذت قبل لحظات واحدة من أقوى الغارات الجوية في تاريخ الشرق الأوسط",
-    "pubDate": "Fri, 13 Mar 2026 23:00:09 GMT"
-  },
-  {
-    "author": "Ajabreaking",
-    "id": "https://nitter.net/AJABreaking/status/2032591697784271314#m",
-    "url": "https://nitter.net/AJABreaking/status/2032591697784271314#m",
-    "title": "عاجل | حزب الله: استهدفنا بالصواريخ تجمعا لجنود العدو الإسرائيلي في محيط بلدية مدينة الخيام",
-    "content": "عاجل | حزب الله: استهدفنا بالصواريخ تجمعا لجنود العدو الإسرائيلي في محيط بلدية مدينة الخيام",
-    "pubDate": "Fri, 13 Mar 2026 22:56:39 GMT"
+    "author": "alarabiya_brk",
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032683744079851551#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032683744079851551#m",
+    "title": "مراسلة العربية: غارة إسرائيلية استهدفت شقة سكنية في حارة صيدا جنوبي لبنان #العربية_عاجل",
+    "content": "مراسلة العربية: غارة إسرائيلية استهدفت شقة سكنية في حارة صيدا جنوبي لبنان #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 05:02:24 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032605624840683606#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032605624840683606#m",
-    "title": "الدفاع السعودية: اعتراض 5 مسيرات بالمنطقة الشرقية #العربية_عاجل",
-    "content": "الدفاع السعودية: اعتراض 5 مسيرات بالمنطقة الشرقية #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:51:59 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032682847970951436#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032682847970951436#m",
+    "title": "مصادر لـ ABC: الجيش الأميركي نشر نحو 10 آلاف مسيّرة منذ بدء الحرب على إيران #العربية_عاجل",
+    "content": "مصادر لـ ABC: الجيش الأميركي نشر نحو 10 آلاف مسيّرة منذ بدء الحرب على إيران #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:58:51 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032605172879196573#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032605172879196573#m",
-    "title": "مصادر عراقية: الهجوم على بغداد كان يستهدف أفرادا بالحشد #العربية_عاجل",
-    "content": "مصادر عراقية: الهجوم على بغداد كان يستهدف أفرادا بالحشد #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:50:11 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032682525194084511#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032682525194084511#m",
+    "title": "معهد أميركي: غارات استهدفت منطقة حاجي آباد الصناعية في أراك بإيران #العربية_عاجل",
+    "content": "معهد أميركي: غارات استهدفت منطقة حاجي آباد الصناعية في أراك بإيران #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:57:34 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032604452369137955#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032604452369137955#m",
-    "title": "وول ستريت جورنال: مقتل 13 جنديا أميركيا بعد أسبوعين من الحرب #العربية_عاجل",
-    "content": "وول ستريت جورنال: مقتل 13 جنديا أميركيا بعد أسبوعين من الحرب #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:47:20 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032682386412945579#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032682386412945579#m",
+    "title": "معهد أميركي: غارات استهدفت شركة شيراز للصناعات الإلكترونية بإيران #العربية_عاجل",
+    "content": "معهد أميركي: غارات استهدفت شركة شيراز للصناعات الإلكترونية بإيران #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:57:00 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032604118766825704#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032604118766825704#m",
-    "title": "ترمب: خطط إيران للسيطرة على الشرق الأوسط ومحو إسرائيل فشلت #العربية_عاجل",
-    "content": "ترمب: خطط إيران للسيطرة على الشرق الأوسط ومحو إسرائيل فشلت #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:46:00 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032678299604750621#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032678299604750621#m",
+    "title": "رويترز عن مصدر عراقي: إسقاط مسيّرة قرب مطار بغداد #العربية_عاجل",
+    "content": "رويترز عن مصدر عراقي: إسقاط مسيّرة قرب مطار بغداد #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:40:46 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032603205289329103#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032603205289329103#m",
-    "title": "مصدر أمني عراقي: أنباء عن سقوط قتلى في الانفجار ببغداد #العربية_عاجل",
-    "content": "مصدر أمني عراقي: أنباء عن سقوط قتلى في الانفجار ببغداد #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:42:22 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032674481546625464#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032674481546625464#m",
+    "title": "الحرس الثوري يقول إنه سيرد بعد هجمات أميركية على جزيرة خرج #العربية_عاجل",
+    "content": "الحرس الثوري يقول إنه سيرد بعد هجمات أميركية على جزيرة خرج #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:25:36 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032602209347641451#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032602209347641451#m",
-    "title": "حزب الله يقول إنه استهدف تجمعا لجنود إسرائيليين جنوب لبنان #العربية_عاجل",
-    "content": "حزب الله يقول إنه استهدف تجمعا لجنود إسرائيليين جنوب لبنان #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:38:25 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032673702488183162#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032673702488183162#m",
+    "title": "ترمب: إيران مهزومة تماما وتريد اتفاقا لكنني لن أوافق عليه #العربية_عاجل",
+    "content": "ترمب: إيران مهزومة تماما وتريد اتفاقا لكنني لن أوافق عليه #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:22:30 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032598308581937408#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032598308581937408#m",
-    "title": "مصادر عراقية: أصوات انفجارات في بغداد #العربية_عاجل",
-    "content": "مصادر عراقية: أصوات انفجارات في بغداد #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:22:55 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032673415639830862#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032673415639830862#m",
+    "title": "أ ب عن مسؤولين عراقيين: صاروخ استهدف مهبط مروحيات بمجمع السفارة الأميركية #العربية_عاجل",
+    "content": "أ ب عن مسؤولين عراقيين: صاروخ استهدف مهبط مروحيات بمجمع السفارة الأميركية #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:21:22 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032598069976408194#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032598069976408194#m",
-    "title": "الدفاع السعودية: اعتراض وتدمير مسيرة في الربع الخالي #العربية_عاجل",
-    "content": "الدفاع السعودية: اعتراض وتدمير مسيرة في الربع الخالي #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:21:58 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032672719204987185#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032672719204987185#m",
+    "title": "مصدر أمني عراقي: السيطرة على حريق داخل السفارة الأميركية ناجم عن هجوم #العربية_عاجل",
+    "content": "مصدر أمني عراقي: السيطرة على حريق داخل السفارة الأميركية ناجم عن هجوم #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:18:36 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032596672035860712#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032596672035860712#m",
-    "title": "مصادر عراقية: اعتراض مسيرات حاولت استهداف القاعدة الأميركية في أربيل #العربية_عاجل",
-    "content": "مصادر عراقية: اعتراض مسيرات حاولت استهداف القاعدة الأميركية في أربيل #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:16:25 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032672473611653473#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032672473611653473#m",
+    "title": "مصدر أمني عراقي: لم يتم تفعيل صفارات الإنذار خلال الهجوم على السفارة الأميركية #العربية_عاجل",
+    "content": "مصدر أمني عراقي: لم يتم تفعيل صفارات الإنذار خلال الهجوم على السفارة الأميركية #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:17:37 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032596300533731479#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032596300533731479#m",
-    "title": "مراسل العربية: صفارات إنذار في المنطقة الخضراء ببغداد #العربية_عاجل",
-    "content": "مراسل العربية: صفارات إنذار في المنطقة الخضراء ببغداد #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:14:56 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032671213680529690#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032671213680529690#m",
+    "title": "الجيش الإسرائيلي يصدر تحذيرا بإخلاء منطقة صناعية في تبريز بإيران #العربية_عاجل",
+    "content": "الجيش الإسرائيلي يصدر تحذيرا بإخلاء منطقة صناعية في تبريز بإيران #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:12:37 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032595051927257480#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032595051927257480#m",
-    "title": "ترمب: قد ندمر البنية التحتية النفطية في خرج بإيران إذا عرقلت سلامة مضيق هرمز #العربية_عاجل",
-    "content": "ترمب: قد ندمر البنية التحتية النفطية في خرج بإيران إذا عرقلت سلامة مضيق هرمز #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:09:58 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032670742404317386#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032670742404317386#m",
+    "title": "مصدر أمني عراقي: تدمير منظومة للدفاع الجوي بالسفارة الأميركية ببغداد جراء الهجوم #العربية_عاجل",
+    "content": "مصدر أمني عراقي: تدمير منظومة للدفاع الجوي بالسفارة الأميركية ببغداد جراء الهجوم #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:10:44 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032594167004545162#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032594167004545162#m",
-    "title": "ترمب: اخترت عدم تدمير البنية التحتية النفطية في جزيرة خرج بإيران #العربية_عاجل",
-    "content": "ترمب: اخترت عدم تدمير البنية التحتية النفطية في جزيرة خرج بإيران #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:06:27 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032668884306649569#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032668884306649569#m",
+    "title": "الأمن العراقي: أي تبرير لاستهداف الأفراد بالمناطق السكنية باطل قانونيا #العربية_عاجل",
+    "content": "الأمن العراقي: أي تبرير لاستهداف الأفراد بالمناطق السكنية باطل قانونيا #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:03:21 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032593979162734968#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032593979162734968#m",
-    "title": "ترمب: نفذنا أحد أكبر الهجمات في تاريخ الشرق الأوسط على جزيرة خرج بإيران \n\nقناة العربية",
-    "content": "ترمب: نفذنا أحد أكبر الهجمات في تاريخ الشرق الأوسط على جزيرة خرج بإيران \nVideo",
-    "pubDate": "Fri, 13 Mar 2026 23:05:43 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032668693990195709#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032668693990195709#m",
+    "title": "الأمن العراقي: ندين استهداف المناطق السكنية المكتظة #العربية_عاجل",
+    "content": "الأمن العراقي: ندين استهداف المناطق السكنية المكتظة #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 04:02:36 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032592869786050934#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032592869786050934#m",
-    "title": "ترمب: على الجيش الإيراني إلقاء السلاح وإنقاذ ما تبقى من بلدهم #العربية_عاجل",
-    "content": "ترمب: على الجيش الإيراني إلقاء السلاح وإنقاذ ما تبقى من بلدهم #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:01:18 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032667866290434131#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032667866290434131#m",
+    "title": "ترمب: وسائل الإعلام الكاذبة تكره نشر التقارير عن نجاح الجيش الأميركي بإيران #العربية_عاجل",
+    "content": "ترمب: وسائل الإعلام الكاذبة تكره نشر التقارير عن نجاح الجيش الأميركي بإيران #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 03:59:19 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032592677678514353#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032592677678514353#m",
-    "title": "ترمب: إيران لن تكون قادرة على تهديد أميركا أو الشرق الأوسط أو العالم #العربية_عاجل",
-    "content": "ترمب: إيران لن تكون قادرة على تهديد أميركا أو الشرق الأوسط أو العالم #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:00:32 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032667635960201300#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032667635960201300#m",
+    "title": "ترمب: إيران خسرت بهزيمة ساحقة والاتفاق الذي تسعى إليه لن أقبله #العربية_عاجل",
+    "content": "ترمب: إيران خسرت بهزيمة ساحقة والاتفاق الذي تسعى إليه لن أقبله #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 03:58:24 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032592563715104923#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032592563715104923#m",
-    "title": "ترمب: لن تمتلك إيران أبدا سلاحا نوويا #العربية_عاجل",
-    "content": "ترمب: لن تمتلك إيران أبدا سلاحا نوويا #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 23:00:05 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032663348798525687#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032663348798525687#m",
+    "title": "مصدر أمني عراقي: مسيرة أصابت السفارة الأميركية في بغداد #العربية_عاجل",
+    "content": "مصدر أمني عراقي: مسيرة أصابت السفارة الأميركية في بغداد #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 03:41:22 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032592479111790942#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032592479111790942#m",
-    "title": "ترمب: إيران عاجزة عن الدفاع عن أي شيء نريد مهاجمته #العربية_عاجل",
-    "content": "ترمب: إيران عاجزة عن الدفاع عن أي شيء نريد مهاجمته #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 22:59:45 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032662492690694497#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032662492690694497#m",
+    "title": "صور متداولة لتصاعد أعمدة الدخان من داخل السفارة الأميركية ببغداد",
+    "content": "صور متداولة لتصاعد أعمدة الدخان من داخل السفارة الأميركية ببغداد\nVideo",
+    "pubDate": "Sat, 14 Mar 2026 03:37:57 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032592378431672526#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032592378431672526#m",
-    "title": "ترمب: قد ندمر البنية التحتية النفطية بخرج إذا أقدمت إيران عرقلة السلامة بمضيق هرمز #العربية_عاجل",
-    "content": "ترمب: قد ندمر البنية التحتية النفطية بخرج إذا أقدمت إيران عرقلة السلامة بمضيق هرمز #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 22:59:21 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032662192005271620#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032662192005271620#m",
+    "title": "مصدر أمني عراقي: تصاعد أعمدة الدخان من داخل السفارة الأميركية ببغداد #العربية_عاجل",
+    "content": "مصدر أمني عراقي: تصاعد أعمدة الدخان من داخل السفارة الأميركية ببغداد #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 03:36:46 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032591970879570015#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032591970879570015#m",
-    "title": "ترمب: اخترت عدم تدمير البنية التحتية النفطية في جزيرة خرج  #العربية_عاجل",
-    "content": "ترمب: اخترت عدم تدمير البنية التحتية النفطية في جزيرة خرج  #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 22:57:44 GMT"
-  },
-  {
-    "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2032591754701009182#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2032591754701009182#m",
-    "title": "ترمب: نفذنا أحد أكبر الهجمات في تاريخ الشرق الأوسط على جزيرة خرج بإيران #العربية_عاجل",
-    "content": "ترمب: نفذنا أحد أكبر الهجمات في تاريخ الشرق الأوسط على جزيرة خرج بإيران #العربية_عاجل",
-    "pubDate": "Fri, 13 Mar 2026 22:56:52 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2032662110686089698#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2032662110686089698#m",
+    "title": "مصدر أمني عراقي: ضربة تستهدف السفارة الأميركية في بغداد #العربية_عاجل",
+    "content": "مصدر أمني عراقي: ضربة تستهدف السفارة الأميركية في بغداد #العربية_عاجل",
+    "pubDate": "Sat, 14 Mar 2026 03:36:26 GMT"
   }
 ]
