@@ -1,162 +1,322 @@
 [
   {
-    "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035209180655542704#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035209180655542704#m",
-    "title": "غوتيريش لـ بوليتيكو: نرحب بالمشاركة في خفض التصعيد بالشرق الأوسط #العربية_عاجل",
-    "content": "غوتيريش لـ بوليتيكو: نرحب بالمشاركة في خفض التصعيد بالشرق الأوسط #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 04:17:35 GMT"
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035252603609583690#m",
+    "url": "https://nitter.net/AJABreaking/status/2035252603609583690#m",
+    "title": "عاجل | وسائل إعلام إيرانية: سماع دوي 3 انفجارات شرق العاصمة #طهران والدفاعات الجوية تتصدى لأهداف معادية",
+    "content": "عاجل | وسائل إعلام إيرانية: سماع دوي 3 انفجارات شرق العاصمة #طهران والدفاعات الجوية تتصدى لأهداف معادية",
+    "pubDate": "Sat, 21 Mar 2026 07:10:08 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035251973700653318#m",
+    "url": "https://nitter.net/AJABreaking/status/2035251973700653318#m",
+    "title": "عاجل | وكالة أنباء مهر: استهداف قاعدة دييغو غارسيا يظهر أن مدى الصواريخ الإيرانية يتجاوز ما كان يتصوره العدو سابقا",
+    "content": "عاجل | وكالة أنباء مهر: استهداف قاعدة دييغو غارسيا يظهر أن مدى الصواريخ الإيرانية يتجاوز ما كان يتصوره العدو سابقا",
+    "pubDate": "Sat, 21 Mar 2026 07:07:38 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035251853269615039#m",
+    "url": "https://nitter.net/AJABreaking/status/2035251853269615039#m",
+    "title": "عاجل | وكالة أنباء مهر: إيران أطلقت صاروخين باليستيين باتجاه قاعدة دييغو غارسيا البريطانية في المحيط الهندي",
+    "content": "عاجل | وكالة أنباء مهر: إيران أطلقت صاروخين باليستيين باتجاه قاعدة دييغو غارسيا البريطانية في المحيط الهندي",
+    "pubDate": "Sat, 21 Mar 2026 07:07:09 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035250965457051739#m",
+    "url": "https://nitter.net/AJABreaking/status/2035250965457051739#m",
+    "title": "عاجل | وسائل إعلام إيرانية: دوي انفجارات في عدة مناطق وتفعيل الدفاعات الجوية في العاصمة #طهران",
+    "content": "عاجل | وسائل إعلام إيرانية: دوي انفجارات في عدة مناطق وتفعيل الدفاعات الجوية في العاصمة #طهران",
+    "pubDate": "Sat, 21 Mar 2026 07:03:37 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035250210624995550#m",
+    "url": "https://nitter.net/AJABreaking/status/2035250210624995550#m",
+    "title": "عاجل | الجيش الإسرائيلي: بلاغات عن وقوع إصابات في وسط البلاد",
+    "content": "عاجل | الجيش الإسرائيلي: بلاغات عن وقوع إصابات في وسط البلاد",
+    "pubDate": "Sat, 21 Mar 2026 07:00:37 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035245804147921284#m",
+    "url": "https://nitter.net/AJABreaking/status/2035245804147921284#m",
+    "title": "عاجل | وسائل إعلام إسرائيلية: فرق الإنقاذ تستجيب لبلاغات عن إصابات عدة ناجمة عن رؤوس متفجرة من صاروخ عنقودي",
+    "content": "عاجل | وسائل إعلام إسرائيلية: فرق الإنقاذ تستجيب لبلاغات عن إصابات عدة ناجمة عن رؤوس متفجرة من صاروخ عنقودي",
+    "pubDate": "Sat, 21 Mar 2026 06:43:07 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035245300982411615#m",
+    "url": "https://nitter.net/AJABreaking/status/2035245300982411615#m",
+    "title": "عاجل | وسائل إعلام إسرائيلية: أضرار كبيرة في ريشون ليتسيون جنوبي تل أبيب وتصاعد أعمدة الدخان إثر سقوط شظايا صواريخ",
+    "content": "عاجل | وسائل إعلام إسرائيلية: أضرار كبيرة في ريشون ليتسيون جنوبي تل أبيب وتصاعد أعمدة الدخان إثر سقوط شظايا صواريخ",
+    "pubDate": "Sat, 21 Mar 2026 06:41:07 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035244675724988889#m",
+    "url": "https://nitter.net/AJABreaking/status/2035244675724988889#m",
+    "title": "عاجل | وسائل إعلام إسرائيلية: تعرض مبان لإصابات مباشرة في ريشون ليتسيون جنوبي تل أبيب",
+    "content": "عاجل | وسائل إعلام إسرائيلية: تعرض مبان لإصابات مباشرة في ريشون ليتسيون جنوبي تل أبيب",
+    "pubDate": "Sat, 21 Mar 2026 06:38:38 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035244545701449818#m",
+    "url": "https://nitter.net/AJABreaking/status/2035244545701449818#m",
+    "title": "عاجل | وسائل إعلام إسرائيلية: تعرض مبان لإصابات مباشرة وسط إسرائيل",
+    "content": "عاجل | وسائل إعلام إسرائيلية: تعرض مبان لإصابات مباشرة وسط إسرائيل",
+    "pubDate": "Sat, 21 Mar 2026 06:38:07 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035244425148838176#m",
+    "url": "https://nitter.net/AJABreaking/status/2035244425148838176#m",
+    "title": "عاجل | وسائل إعلام إسرائيلية: سقوط رأس صاروخي متفجر في منطقة بوسط إسرائيل",
+    "content": "عاجل | وسائل إعلام إسرائيلية: سقوط رأس صاروخي متفجر في منطقة بوسط إسرائيل",
+    "pubDate": "Sat, 21 Mar 2026 06:37:38 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035244303388168269#m",
+    "url": "https://nitter.net/AJABreaking/status/2035244303388168269#m",
+    "title": "عاجل | وسائل إعلام إسرائيلية: سقوط شظايا صواريخ على منطقة تل أبيب الكبرى",
+    "content": "عاجل | وسائل إعلام إسرائيلية: سقوط شظايا صواريخ على منطقة تل أبيب الكبرى",
+    "pubDate": "Sat, 21 Mar 2026 06:37:09 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035244044679282758#m",
+    "url": "https://nitter.net/AJABreaking/status/2035244044679282758#m",
+    "title": "عاجل | وسائل إعلام إسرائيلية: أحد الصواريخ الإيرانية في الدفعة الأخيرة يحمل رأسا عنقوديا",
+    "content": "عاجل | وسائل إعلام إسرائيلية: أحد الصواريخ الإيرانية في الدفعة الأخيرة يحمل رأسا عنقوديا",
+    "pubDate": "Sat, 21 Mar 2026 06:36:07 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035243035533963752#m",
+    "url": "https://nitter.net/AJABreaking/status/2035243035533963752#m",
+    "title": "عاجل | وكالة مهر الإيرانية: إطلاق دفعة من الصواريخ باتجاه الأراضي المحتلة",
+    "content": "عاجل | وكالة مهر الإيرانية: إطلاق دفعة من الصواريخ باتجاه الأراضي المحتلة",
+    "pubDate": "Sat, 21 Mar 2026 06:32:07 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035242783171100997#m",
+    "url": "https://nitter.net/AJABreaking/status/2035242783171100997#m",
+    "title": "عاجل | الجبهة الداخلية الإسرائيلية: إطلاق صفارت الإنذار في تل أبيب الكبرى عقب رصد هجوم صاروخي إيراني",
+    "content": "عاجل | الجبهة الداخلية الإسرائيلية: إطلاق صفارت الإنذار في تل أبيب الكبرى عقب رصد هجوم صاروخي إيراني",
+    "pubDate": "Sat, 21 Mar 2026 06:31:07 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035242153840976200#m",
+    "url": "https://nitter.net/AJABreaking/status/2035242153840976200#m",
+    "title": "عاجل | الجيش الإسرائيلي: رصد إطلاق صواريخ من #إيران باتجاه إسرائيل والدفاعات الجوية تعمل على اعتراضها",
+    "content": "عاجل | الجيش الإسرائيلي: رصد إطلاق صواريخ من #إيران باتجاه إسرائيل والدفاعات الجوية تعمل على اعتراضها",
+    "pubDate": "Sat, 21 Mar 2026 06:28:37 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035241902086242318#m",
+    "url": "https://nitter.net/AJABreaking/status/2035241902086242318#m",
+    "title": "عاجل | الجبهة الداخلية الإسرائيلية: إنذار عقب رصد هجوم صاروخي إيراني يستهدف وسط إسرائيل وجنوبها ومستوطنات وسط الضفة",
+    "content": "عاجل | الجبهة الداخلية الإسرائيلية: إنذار عقب رصد هجوم صاروخي إيراني يستهدف وسط إسرائيل وجنوبها ومستوطنات وسط الضفة",
+    "pubDate": "Sat, 21 Mar 2026 06:27:37 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035236872306204724#m",
+    "url": "https://nitter.net/AJABreaking/status/2035236872306204724#m",
+    "title": "عاجل | إن بي سي عن الرئيس التنفيذي ليونايتد إيرلاينز: سنقلص رحلات أقل ربحية على المدى القصير بسبب أسعار النفط",
+    "content": "عاجل | إن بي سي عن الرئيس التنفيذي ليونايتد إيرلاينز: سنقلص رحلات أقل ربحية على المدى القصير بسبب أسعار النفط",
+    "pubDate": "Sat, 21 Mar 2026 06:07:37 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035236618454380754#m",
+    "url": "https://nitter.net/AJABreaking/status/2035236618454380754#m",
+    "title": "عاجل | إن بي سي عن الرئيس التنفيذي ليونايتد إيرلاينز: نتوقع الأ ينخفض سعر النفط إلى 100 دولار للبرميل قبل نهاية 2027",
+    "content": "عاجل | إن بي سي عن الرئيس التنفيذي ليونايتد إيرلاينز: نتوقع الأ ينخفض سعر النفط إلى 100 دولار للبرميل قبل نهاية 2027",
+    "pubDate": "Sat, 21 Mar 2026 06:06:37 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035236116488483043#m",
+    "url": "https://nitter.net/AJABreaking/status/2035236116488483043#m",
+    "title": "عاجل | إن بي سي عن الرئيس التنفيذي ليونايتد إيرلاينز: خططنا تفترض وصول سعر برميل النفط إلى 175 دولارا",
+    "content": "عاجل | إن بي سي عن الرئيس التنفيذي ليونايتد إيرلاينز: خططنا تفترض وصول سعر برميل النفط إلى 175 دولارا",
+    "pubDate": "Sat, 21 Mar 2026 06:04:37 GMT"
+  },
+  {
+    "author": "Ajabreaking",
+    "id": "https://nitter.net/AJABreaking/status/2035235609451589784#m",
+    "url": "https://nitter.net/AJABreaking/status/2035235609451589784#m",
+    "title": "عاجل | مصدر أمني عراقي للجزيرة: استهداف مقر للحشد الشعبي في طوزخرماتو للمرة الثانية دون تسجيل أي إصابات",
+    "content": "عاجل | مصدر أمني عراقي للجزيرة: استهداف مقر للحشد الشعبي في طوزخرماتو للمرة الثانية دون تسجيل أي إصابات",
+    "pubDate": "Sat, 21 Mar 2026 06:02:36 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035208311243526628#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035208311243526628#m",
-    "title": "غوتيريش لـ بوليتيكو: الأمم المتحدة يمكن أن تشارك في حماية مضيق هرمز #العربية_عاجل",
-    "content": "غوتيريش لـ بوليتيكو: الأمم المتحدة يمكن أن تشارك في حماية مضيق هرمز #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 04:14:08 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035249340185296997#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035249340185296997#m",
+    "title": "إعلام إيراني: استهداف مواقع عسكرية في الأهواز جنوب غربي إيران #العربية_عاجل",
+    "content": "إعلام إيراني: استهداف مواقع عسكرية في الأهواز جنوب غربي إيران #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 06:57:10 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035197436117786673#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035197436117786673#m",
-    "title": "الجيش الإسرائيلي: نعمل على اعتراض صواريخ أطلقت من إيران تجاه إسرائيل #العربية_عاجل",
-    "content": "الجيش الإسرائيلي: نعمل على اعتراض صواريخ أطلقت من إيران تجاه إسرائيل #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 03:30:55 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035246367744872813#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035246367744872813#m",
+    "title": "إعلام إسرائيلي: تضرر مبان في ريشون لتسيون جراء شظايا صاروخ عنقودي #العربية_عاجل",
+    "content": "إعلام إسرائيلي: تضرر مبان في ريشون لتسيون جراء شظايا صاروخ عنقودي #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 06:45:21 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035195441201955037#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035195441201955037#m",
-    "title": "إعلام إيراني: استهداف موقع في الأهواز بعدة ضربات #العربية_عاجل",
-    "content": "إعلام إيراني: استهداف موقع في الأهواز بعدة ضربات #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 03:22:59 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035245429059694946#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035245429059694946#m",
+    "title": "مراسل العربية: سقوط شظايا في منطقتي غوش دان وريشون لتسيون بتل أبيب #العربية_عاجل",
+    "content": "مراسل العربية: سقوط شظايا في منطقتي غوش دان وريشون لتسيون بتل أبيب #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 06:41:37 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035192820500250648#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035192820500250648#m",
-    "title": "الجيش الكويتي: نتصدى لهجمات صـاروخية ومسيرات معادية #العربية_عاجل",
-    "content": "الجيش الكويتي: نتصدى لهجمات صـاروخية ومسيرات معادية #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 03:12:35 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035245195789283455#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035245195789283455#m",
+    "title": "مراسل العربية: سقوط شظايا صاروخ إيراني في موقعين وسط إسرائيل #العربية_عاجل",
+    "content": "مراسل العربية: سقوط شظايا صاروخ إيراني في موقعين وسط إسرائيل #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 06:40:42 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035189159208304919#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035189159208304919#m",
-    "title": "المتحدث الرسمي للدفاع السعودية: اعتراض 5 مسيرات في المنطقة الشرقية #العربية_عاجل",
-    "content": "المتحدث الرسمي للدفاع السعودية: اعتراض 5 مسيرات في المنطقة الشرقية #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 02:58:02 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035243902421156262#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035243902421156262#m",
+    "title": "الجيش الإسرائيلي: الدفاعات تعمل على اعتراض صواريخ إيرانية #العربية_عاجل",
+    "content": "الجيش الإسرائيلي: الدفاعات تعمل على اعتراض صواريخ إيرانية #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 06:35:33 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035185526475571399#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035185526475571399#m",
-    "title": "مندوب أميركا بالأمم المتحدة: نفضل تدمير منشآت إيران النووية من البحر أو الجو #العربية_عاجل",
-    "content": "مندوب أميركا بالأمم المتحدة: نفضل تدمير منشآت إيران النووية من البحر أو الجو #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 02:43:36 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035241779646128256#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035241779646128256#m",
+    "title": "مراسل العربية: رصد إطلاق صواريخ من إيران تجاه وسط إسرائيل وجنوبها #العربية_عاجل",
+    "content": "مراسل العربية: رصد إطلاق صواريخ من إيران تجاه وسط إسرائيل وجنوبها #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 06:27:07 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035185209981755817#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035185209981755817#m",
-    "title": "مندوب أميركا بالأمم المتحدة: ترمب لديه جميع الخيارات بما فيها نشر قوات داخل إيران #العربية_عاجل",
-    "content": "مندوب أميركا بالأمم المتحدة: ترمب لديه جميع الخيارات بما فيها نشر قوات داخل إيران #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 02:42:20 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035241262886916426#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035241262886916426#m",
+    "title": "مندوب أميركا بالأمم المتحدة: حرب إيران لا تتعارض مع شعار \"أميركا أولا\" #العربية_عاجل",
+    "content": "مندوب أميركا بالأمم المتحدة: حرب إيران لا تتعارض مع شعار \"أميركا أولا\" #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 06:25:04 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035183143947243661#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035183143947243661#m",
-    "title": "إعلام إيراني: تصاعد أعمدة الدخان في شمال شرق طهران \n\nقناة العربية",
-    "content": "إعلام إيراني: تصاعد أعمدة الدخان في شمال شرق طهران \nVideo",
-    "pubDate": "Sat, 21 Mar 2026 02:34:08 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035239146306867556#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035239146306867556#m",
+    "title": "عراقجي: لا يبدو أن أميركا تريد إنهاء الحرب وسنواصل الدفاع عن أنفسنا",
+    "content": "عراقجي: لا يبدو أن أميركا تريد إنهاء الحرب وسنواصل الدفاع عن أنفسنا\nVideo",
+    "pubDate": "Sat, 21 Mar 2026 06:16:40 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035181491664154776#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035181491664154776#m",
-    "title": "مصادر لـCBS: إدارة ترمب وضعت خططا للسيطرة على اليورانيوم الإيراني #العربية_عاجل",
-    "content": "مصادر لـCBS: إدارة ترمب وضعت خططا للسيطرة على اليورانيوم الإيراني #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 02:27:34 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035232072562823680#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035232072562823680#m",
+    "title": "كوريا الجنوبية تعلن الانضمام لـ\"جهود ضمان حرية الملاحة\" في مضيق هرمز #العربية_عاجل",
+    "content": "كوريا الجنوبية تعلن الانضمام لـ\"جهود ضمان حرية الملاحة\" في مضيق هرمز #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 05:48:33 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035179390397554879#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035179390397554879#m",
-    "title": "الجيش الكويتي: نتصدى لهجمات صاروخية ومسيرات معادية #العربية_عاجل",
-    "content": "الجيش الكويتي: نتصدى لهجمات صاروخية ومسيرات معادية #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 02:19:13 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035228813336952960#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035228813336952960#m",
+    "title": "مندوب أميركا بالأمم المتحدة: تخفيف العقوبات على النفط الإيراني \"مؤقت جدا\" #العربية_عاجل",
+    "content": "مندوب أميركا بالأمم المتحدة: تخفيف العقوبات على النفط الإيراني \"مؤقت جدا\" #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 05:35:36 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035179069008945172#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035179069008945172#m",
-    "title": "إعلام إيراني: دوي انفجار في محافظة مازندران شمال البلاد \n\nقناة العربية",
-    "content": "إعلام إيراني: دوي انفجار في محافظة مازندران شمال البلاد \nVideo",
-    "pubDate": "Sat, 21 Mar 2026 02:17:56 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035227280725704712#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035227280725704712#m",
+    "title": "المفوضية الأوروبية تحث الدول الأعضاء على خفض أهداف تخزين الغاز #العربية_عاجل",
+    "content": "المفوضية الأوروبية تحث الدول الأعضاء على خفض أهداف تخزين الغاز #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 05:29:31 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035177643943858472#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035177643943858472#m",
-    "title": "إعلام إيراني: دوي انفجار في محافظة مازندران شمال البلاد #العربية_عاجل",
-    "content": "إعلام إيراني: دوي انفجار في محافظة مازندران شمال البلاد #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 02:12:16 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035226176436818062#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035226176436818062#m",
+    "title": "معهد أميركي: غارات استهدفت مواقع إنتاج صواريخ باليستية في طهران #العربية_عاجل",
+    "content": "معهد أميركي: غارات استهدفت مواقع إنتاج صواريخ باليستية في طهران #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 05:25:07 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035176234213052422#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035176234213052422#m",
-    "title": "الجيش الإسرائيلي: نشن هجمات على طهران #العربية_عاجل",
-    "content": "الجيش الإسرائيلي: نشن هجمات على طهران #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 02:06:40 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035225692271509777#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035225692271509777#m",
+    "title": "معهد أميركي: 3 ضربات استهدفت قاعدة صواريخ شمران جنوبي إيران #العربية_عاجل",
+    "content": "معهد أميركي: 3 ضربات استهدفت قاعدة صواريخ شمران جنوبي إيران #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 05:23:12 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035174086008070211#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035174086008070211#m",
-    "title": "المتحدث الرسمي للدفاع السعودية: اعتراض مسيرتين بالـمنطقة الشرقية #العربية_عاجل",
-    "content": "المتحدث الرسمي للدفاع السعودية: اعتراض مسيرتين بالـمنطقة الشرقية #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 01:58:08 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035224903822004312#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035224903822004312#m",
+    "title": "عراقجي: لا نقبل بوقف النار إلا بضمانات بعدم تكرار الحرب #العربية_عاجل",
+    "content": "عراقجي: لا نقبل بوقف النار إلا بضمانات بعدم تكرار الحرب #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 05:20:04 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035171417424024052#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035171417424024052#m",
-    "title": "عراقجي: العديد من الدول تحاول التوسط لإنهاء الحرب #العربية_عاجل",
-    "content": "عراقجي: العديد من الدول تحاول التوسط لإنهاء الحرب #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 01:47:32 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035224456981885318#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035224456981885318#m",
+    "title": "عراقجي: لا يبدو أن أميركا تريد إنهاء الحرب وسنواصل الدفاع عن أنفسنا #العربية_عاجل",
+    "content": "عراقجي: لا يبدو أن أميركا تريد إنهاء الحرب وسنواصل الدفاع عن أنفسنا #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 05:18:17 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035171311333384526#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035171311333384526#m",
-    "title": "عراقجي: إيران منفتحة على أي مبادرة لإنهاء الصراع #العربية_عاجل",
-    "content": "عراقجي: إيران منفتحة على أي مبادرة لإنهاء الصراع #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 01:47:06 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035220968080093551#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035220968080093551#m",
+    "title": "إعلام إسرائيلي: إطلاق صفارات إنذار في الجليل ومسغاف عم",
+    "content": "إعلام إسرائيلي: إطلاق صفارات إنذار في الجليل ومسغاف عم\nVideo",
+    "pubDate": "Sat, 21 Mar 2026 05:04:26 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035171000745132119#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035171000745132119#m",
-    "title": "وزير خارجية إيران: نسعى لإنهاء الحرب بشكل دائم #العربية_عاجل",
-    "content": "وزير خارجية إيران: نسعى لإنهاء الحرب بشكل دائم #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 01:45:52 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035220685660835848#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035220685660835848#m",
+    "title": "إعلام إيراني: دوي 8 انفجارات قرب منطقة \"بهشتي\" في طهران فجر اليوم",
+    "content": "إعلام إيراني: دوي 8 انفجارات قرب منطقة \"بهشتي\" في طهران فجر اليوم\nVideo",
+    "pubDate": "Sat, 21 Mar 2026 05:03:18 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035169940366410181#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035169940366410181#m",
-    "title": "إعلام إيراني: موجة هجمات على مواقع غرب طهران \n\nقناة العربية",
-    "content": "إعلام إيراني: موجة هجمات على مواقع غرب طهران \nVideo",
-    "pubDate": "Sat, 21 Mar 2026 01:41:40 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035220247733518759#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035220247733518759#m",
+    "title": "إعلام إيراني: الإبلاغ عن انفجارين بقاعدة للحرس الثوري في بوشهر فجر اليوم",
+    "content": "إعلام إيراني: الإبلاغ عن انفجارين بقاعدة للحرس الثوري في بوشهر فجر اليوم\nVideo",
+    "pubDate": "Sat, 21 Mar 2026 05:01:34 GMT"
   },
   {
     "author": "alarabiya_brk",
-    "id": "https://nitter.net/AlArabiya_Brk/status/2035169225543655654#m",
-    "url": "https://nitter.net/AlArabiya_Brk/status/2035169225543655654#m",
-    "title": "إعلام إيراني: استهداف منطقة برديس شمال شرق طهران #العربية_عاجل",
-    "content": "إعلام إيراني: استهداف منطقة برديس شمال شرق طهران #العربية_عاجل",
-    "pubDate": "Sat, 21 Mar 2026 01:38:49 GMT"
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035218126556610859#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035218126556610859#m",
+    "title": "إعلام إيراني: الإبلاغ عن انفجارين بقاعدة للحرس الثوري في بوشهر فجر اليوم #العربية_عاجل",
+    "content": "إعلام إيراني: الإبلاغ عن انفجارين بقاعدة للحرس الثوري في بوشهر فجر اليوم #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 04:53:08 GMT"
+  },
+  {
+    "author": "alarabiya_brk",
+    "id": "https://nitter.net/AlArabiya_Brk/status/2035218042234220594#m",
+    "url": "https://nitter.net/AlArabiya_Brk/status/2035218042234220594#m",
+    "title": "إعلام إيراني: استهداف معهد أبحاث النفط في طهران فجر اليوم #العربية_عاجل",
+    "content": "إعلام إيراني: استهداف معهد أبحاث النفط في طهران فجر اليوم #العربية_عاجل",
+    "pubDate": "Sat, 21 Mar 2026 04:52:48 GMT"
   }
 ]
