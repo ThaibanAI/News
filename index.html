@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Reader - Al Jazeera & Al Arabiya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .source-btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 50px;
+            background: white;
+            color: #333;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .source-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .source-btn.active {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .source-btn.aljazeera.active {
+            background: #0056b3;
+        }
+
+        .source-btn.alarabiya.active {
+            background: #d32f2f;
+        }
+
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            padding: 40px;
+        }
+
+        .loading i {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .news-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+        }
+
+        .news-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+        }
+
+        .news-content {
+            padding: 20px;
+        }
+
+        .news-source {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .source-aljazeera {
+            background: #0056b3;
+            color: white;
+        }
+
+        .source-alarabiya {
+            background: #d32f2f;
+            color: white;
+        }
+
+        .news-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        .news-description {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 15px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .news-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #888;
+            font-size: 0.85rem;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        .news-date {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        .error {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            color: #d32f2f;
+            margin: 20px 0;
+        }
+
+        .refresh-btn {
+            padding: 12px 25px;
+            background: white;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 20px auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .refresh-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        @media (max-width: 768px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .controls {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .source-btn {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            padding: 20px;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-newspaper"></i> News Reader</h1>
+            <p>Latest news from Al Jazeera and Al Arabiya</p>
+        </header>
+
+        <div class="controls">
+            <button class="source-btn aljazeera active" data-source="aljazeera">
+                <i class="fas fa-globe-americas"></i> Al Jazeera
+            </button>
+            <button class="source-btn alarabiya" data-source="alarabiya">
+                <i class="fas fa-tv"></i> Al Arabiya
+            </button>
+            <button class="source-btn" data-source="all">
+                <i class="fas fa-layer-group"></i> All News
+            </button>
+        </div>
+
+        <button class="refresh-btn" id="refreshBtn">
+            <i class="fas fa-sync-alt"></i> Refresh News
+        </button>
+
+        <div id="newsContainer">
+            <div class="loading">
+                <i class="fas fa-spinner"></i>
+                <p>Loading latest news...</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>News Reader App • RSS Feed Reader • Updated in real-time</p>
+            <p>Data sourced from Al Jazeera and Al Arabiya RSS feeds</p>
+        </footer>
+    </div>
+
+    <script>
+        // RSS Feed URLs
+        const RSS_FEEDS = {
+            aljazeera: 'https://www.aljazeera.com/xml/rss/all.xml',
+            alarabiya: 'https://www.alarabiya.net/ar/feed'
+        };
+
+        // CORS proxy to avoid CORS issues
+        const CORS_PROXY = 'https://api.allorigins.win/raw?url=';
+
+        let currentSource = 'all';
+        let allNews = [];
+
+        // DOM Elements
+        const newsContainer = document.getElementById('newsContainer');
+        const sourceButtons = document.querySelectorAll('.source-btn');
+        const refreshBtn = document.getElementById('refreshBtn');
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            loadAllNews();
+            setupEventListeners();
+        });
+
+        function setupEventListeners() {
+            // Source filter buttons
+            sourceButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    sourceButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    currentSource = button.dataset.source;
+                    displayNews();
+                });
+            });
+
+            // Refresh button
+            refreshBtn.addEventListener('click', loadAllNews);
+        }
+
+        async function loadAllNews() {
+            showLoading();
+            allNews = [];
+            
+            try {
+                // Load Al Jazeera news
+                const aljazeeraNews = await fetchNews('aljazeera');
+                allNews = [...allNews, ...aljazeeraNews];
+                
+                // Load Al Arabiya news
+                const alarabiyaNews = await fetchNews('alarabiya');
+                allNews = [...allNews, ...alarabiyaNews];
+                
+                // Sort by date (newest first)
+                allNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+                
+                displayNews();
+            } catch (error) {
+                showError('Failed to load news. Please try again.');
+                console.error('Error loading news:', error);
+            }
+        }
+
+        async function fetchNews(source) {
+            try {
+                const response = await fetch(CORS_PROXY + encodeURIComponent(RSS_FEEDS[source]));
+                const text = await response.text();
+                
+                // Parse XML response
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(text, 'text/xml');
+                
+                // Extract news items
+                const items = xmlDoc.querySelectorAll('item');
+                const news = [];
+                
+                items.forEach(item => {
+                    const title = item.querySelector('title')?.textContent || 'No title';
+                    const description = item.querySelector('description')?.textContent || '';
+                    const link = item.querySelector('link')?.textContent || '#';
+                    const pubDate = item.querySelector('pubDate')?.textContent || new Date().toISOString();
+                    const enclosure = item.querySelector('enclosure');
+                    const imageUrl = enclosure?.getAttribute('url') || 
+                                    item.querySelector('media\\:content, content')?.getAttribute('url') ||
+                                    'https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
+                    
+                    // Clean up description (remove HTML tags)
+                    const cleanDescription = description.replace(/<[^>]*>/g, '').substring(0, 200) + '...';
+                    
+                    news.push({
+                        title,
+                        description: cleanDescription,
+                        link,
+                        pubDate,
+                        imageUrl,
+                        source
+                    });
+                });
+                
+                return news.slice(0, 10); // Limit to 10 items per source
+            } catch (error) {
+                console.error(`Error fetching ${source} news:`, error);
+                return [];
+            }
+        }
+
+        function displayNews() {
+            let filteredNews = allNews;
+            
+            if (currentSource !== 'all') {
+                filteredNews = allNews.filter(item => item.source === currentSource);
+            }
+            
+            if (filteredNews.length === 0) {
+                newsContainer.innerHTML = `
+                    <div class="error">
+                        <i class="fas fa-exclamation-triangle" style="font-size: 2rem; margin-bottom: 10px;"></i>
+                        <h3>No news available</h3>
+                        <p>Try refreshing or check your connection</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            const newsHTML = filteredNews.map(item => `
+                <div class="news-card" onclick="window.open('${item.link}', '_blank')">
+                    <img src="${item.imageUrl}" alt="${item.title}" class="news-image" onerror="this.src='https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    <div class="news-content">
+                        <span class="news-source ${item.source === 'aljazeera' ? 'source-aljazeera' : 'source-alarabiya'}">
+                            ${item.source === 'aljazeera' ? 'Al Jazeera' : 'Al Arabiya'}
+                        </span>
+                        <h3 class="news-title">${item.title}</h3>
+                        <p class="news-description">${item.description}</p>
+                        <div class="news-meta">
+                            <span class="news-date">
+                                <i class="far fa-clock"></i> ${formatDate(item.pubDate)}
+                            </span>
+                            <a href="${item.link}" class="read-more" target="_blank" onclick="event.stopPropagation()">
+                                Read More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+            
+            newsContainer.innerHTML = `
+                <div class="news-grid">
+                    ${newsHTML}
+                </div>
+            `;
+        }
+
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            const now = new Date();
+            const diffMs = now - date;
+            const diffMins = Math.floor(diffMs / 60000);
+            const diffHours = Math.floor(diffMs / 3600000);
+            const diffDays = Math.floor(diffMs / 86400000);
+            
+            if (diffMins < 60) {
+                return `${diffMins} min ago`;
+            } else if (diffHours < 24) {
+                return `${diffHours} hours ago`;
+            } else if (diffDays < 7) {
+                return `${diffDays} days ago`;
+            } else {
+                return date.toLocaleDateString('en-US', { 
+                    month: 'short', 
+                    day: 'numeric',
+                    year: 'numeric'
+                });
+            }
+        }
+
+        function showLoading() {
+            newsContainer.innerHTML = `
+                <div class="loading">
+                    <i class="fas fa-spinner"></i>
+                    <p>Loading latest news...</p>
+                </div>
+            `;
+        }
+
+        function showError(message) {
+            newsContainer.innerHTML = `
+                <div class="error">
+                    <i class="fas fa-exclamation-triangle" style="font-size: 2rem; margin-bottom: 10px;"></i>
+                    <h3>Error Loading News</h3>
+                    <p>${message}</p>
+                    <button class="refresh-btn" onclick="loadAllNews()" style="margin-top: 15px;">
+                        <i class="fas fa-redo"></i> Try Again
+                    </button>
+                </div>
+            `;
+        }
+
+        // Auto-refresh every 5 minutes
+        setInterval(loadAllNews, 5 * 60 * 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "news-reader-app",
+  "version": "1.0.0",
+  "description": "Mobile web app that reads latest news from Al Jazeera and Al Arabiya using RSS feeds",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "news",
+    "rss",
+    "mobile",
+    "webapp",
+    "aljazeera",
+    "alarabiya"
+  ],
+  "author": "News Reader App",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
