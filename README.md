@@ -19,7 +19,7 @@ A responsive mobile web application that fetches and displays the latest news fr
 
 ## 🚀 Live Demo
 
-[Click here to view the live demo](#) *(Add your GitHub Pages URL here)*
+**[Click here to view the live demo](https://thaibanai.github.io/News/)** - The app is deployed and live on GitHub Pages!
 
 ## 📸 Screenshots
 
@@ -170,4 +170,4 @@ For support, please:
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [ThaibanAI](https://github.com/ThaibanAI) - Your AI assistant built on OpenClaw
