@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,6 +83,10 @@
             background: #d32f2f;
         }
 
+        .source-btn.alarabiya-tech.active {
+            background: #e65100;
+        }
+
         .loading {
             text-align: center;
             color: white;
@@ -149,6 +153,11 @@
 
         .source-alarabiya {
             background: #d32f2f;
+            color: white;
+        }
+
+        .source-alarabiya-tech {
+            background: #e65100;
             color: white;
         }
 
@@ -274,6 +283,9 @@
             <button class="source-btn alarabiya" data-source="alarabiya">
                 <i class="fas fa-tv"></i> Al Arabiya
             </button>
+            <button class="source-btn alarabiya-tech" data-source="alarabiya-tech">
+                <i class="fas fa-microchip"></i> Al Arabiya Tech
+            </button>
             <button class="source-btn" data-source="all">
                 <i class="fas fa-layer-group"></i> All News
             </button>
@@ -293,6 +305,7 @@
         <footer>
             <p>News Reader App • RSS Feed Reader • Updated in real-time</p>
             <p>Data sourced from Al Jazeera and Al Arabiya RSS feeds</p>
+            <p>Built by <a href="https://github.com/ThaibanAI" style="color:white;text-decoration:underline;">ThaibanAI</a></p>
         </footer>
     </div>
 
@@ -300,11 +313,29 @@
         // RSS Feed URLs
         const RSS_FEEDS = {
             aljazeera: 'https://www.aljazeera.com/xml/rss/all.xml',
-            alarabiya: 'https://www.alarabiya.net/ar/feed'
+            alarabiya: 'https://www.alarabiya.net/feed/rss2/ar.xml',
+            'alarabiya-tech': 'https://www.alarabiya.net/feed/rss2/ar/technology.xml'
         };
 
-        // CORS proxy to avoid CORS issues
-        const CORS_PROXY = 'https://api.allorigins.win/raw?url=';
+        // Source display names
+        const SOURCE_NAMES = {
+            aljazeera: 'Al Jazeera',
+            alarabiya: 'Al Arabiya',
+            'alarabiya-tech': 'Al Arabiya Tech'
+        };
+
+        // Source CSS classes
+        const SOURCE_CLASSES = {
+            aljazeera: 'source-aljazeera',
+            alarabiya: 'source-alarabiya',
+            'alarabiya-tech': 'source-alarabiya-tech'
+        };
+
+        // Convert RSS to JSON via rss2json.com (works without CORS issues)
+        const RSS2JSON_API = 'https://api.rss2json.com/v1/api.json?rss_url=';
+
+        // Fallback image when article has no thumbnail
+        const FALLBACK_IMAGE = 'https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
 
         let currentSource = 'all';
         let allNews = [];
@@ -340,18 +371,30 @@
             allNews = [];
             
             try {
-                // Load Al Jazeera news
-                const aljazeeraNews = await fetchNews('aljazeera');
-                allNews = [...allNews, ...aljazeeraNews];
+                // Load all feeds in parallel
+                const results = await Promise.allSettled([
+                    fetchNews('aljazeera'),
+                    fetchNews('alarabiya'),
+                    fetchNews('alarabiya-tech')
+                ]);
                 
-                // Load Al Arabiya news
-                const alarabiyaNews = await fetchNews('alarabiya');
-                allNews = [...allNews, ...alarabiyaNews];
+                results.forEach((result, index) => {
+                    const sources = ['aljazeera', 'alarabiya', 'alarabiya-tech'];
+                    if (result.status === 'fulfilled' && result.value.length > 0) {
+                        allNews = [...allNews, ...result.value];
+                    } else if (result.status === 'rejected') {
+                        console.error(`Failed to load ${sources[index]}:`, result.reason);
+                    }
+                });
                 
                 // Sort by date (newest first)
                 allNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
                 
-                displayNews();
+                if (allNews.length === 0) {
+                    showError('Could not load news from any source. Please try again later.');
+                } else {
+                    displayNews();
+                }
             } catch (error) {
                 showError('Failed to load news. Please try again.');
                 console.error('Error loading news:', error);
@@ -359,46 +402,41 @@
         }
 
         async function fetchNews(source) {
-            try {
-                const response = await fetch(CORS_PROXY + encodeURIComponent(RSS_FEEDS[source]));
-                const text = await response.text();
-                
-                // Parse XML response
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(text, 'text/xml');
-                
-                // Extract news items
-                const items = xmlDoc.querySelectorAll('item');
-                const news = [];
-                
-                items.forEach(item => {
-                    const title = item.querySelector('title')?.textContent || 'No title';
-                    const description = item.querySelector('description')?.textContent || '';
-                    const link = item.querySelector('link')?.textContent || '#';
-                    const pubDate = item.querySelector('pubDate')?.textContent || new Date().toISOString();
-                    const enclosure = item.querySelector('enclosure');
-                    const imageUrl = enclosure?.getAttribute('url') || 
-                                    item.querySelector('media\\:content, content')?.getAttribute('url') ||
-                                    'https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
-                    
-                    // Clean up description (remove HTML tags)
-                    const cleanDescription = description.replace(/<[^>]*>/g, '').substring(0, 200) + '...';
-                    
-                    news.push({
-                        title,
-                        description: cleanDescription,
-                        link,
-                        pubDate,
-                        imageUrl,
-                        source
-                    });
-                });
-                
-                return news.slice(0, 10); // Limit to 10 items per source
-            } catch (error) {
-                console.error(`Error fetching ${source} news:`, error);
+            const rssUrl = RSS_FEEDS[source];
+            const apiUrl = RSS2JSON_API + encodeURIComponent(rssUrl);
+            
+            const response = await fetch(apiUrl);
+            const data = await response.json();
+            
+            if (data.status !== 'ok') {
+                console.warn(`rss2json returned non-ok status for ${source}:`, data);
                 return [];
             }
+            
+            // Map rss2json items to our format
+            return (data.items || []).map(item => {
+                // Extract image from enclosure or thumbnail
+                let imageUrl = FALLBACK_IMAGE;
+                if (item.thumbnail && item.thumbnail !== '') {
+                    imageUrl = item.thumbnail;
+                } else if (item.enclosure && item.enclosure.link) {
+                    imageUrl = item.enclosure.link;
+                }
+                
+                // Clean description (remove HTML tags)
+                const cleanDesc = item.description
+                    ? item.description.replace(/<[^>]*>/g, '').substring(0, 200) + '...'
+                    : 'Read more about this story...';
+                
+                return {
+                    title: item.title || 'No title',
+                    description: cleanDesc,
+                    link: item.link || '#',
+                    pubDate: item.pubDate || new Date().toISOString(),
+                    imageUrl: imageUrl,
+                    source: source
+                };
+            }).slice(0, 15); // Limit to 15 items per source
         }
 
         function displayNews() {
@@ -419,12 +457,17 @@
                 return;
             }
             
-            const newsHTML = filteredNews.map(item => `
-                <div class="news-card" onclick="window.open('${item.link}', '_blank')">
-                    <img src="${item.imageUrl}" alt="${item.title}" class="news-image" onerror="this.src='https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+            const newsHTML = filteredNews.map(item => {
+                const sourceName = SOURCE_NAMES[item.source] || item.source;
+                const sourceClass = SOURCE_CLASSES[item.source] || 'source-aljazeera';
+                const escapedTitle = item.title.replace(/'/g, "\\'");
+                
+                return `
+                <div class="news-card" onclick="window.open('${item.link.replace(/'/g, "\\'")}', '_blank')">
+                    <img src="${item.imageUrl}" alt="${escapedTitle}" class="news-image" onerror="this.src='${FALLBACK_IMAGE}'">
                     <div class="news-content">
-                        <span class="news-source ${item.source === 'aljazeera' ? 'source-aljazeera' : 'source-alarabiya'}">
-                            ${item.source === 'aljazeera' ? 'Al Jazeera' : 'Al Arabiya'}
+                        <span class="news-source ${sourceClass}">
+                            ${sourceName}
                         </span>
                         <h3 class="news-title">${item.title}</h3>
                         <p class="news-description">${item.description}</p>
@@ -437,8 +480,8 @@
                             </a>
                         </div>
                     </div>
-                </div>
-            `).join('');
+                </div>`;
+            }).join('');
             
             newsContainer.innerHTML = `
                 <div class="news-grid">
@@ -455,19 +498,15 @@
             const diffHours = Math.floor(diffMs / 3600000);
             const diffDays = Math.floor(diffMs / 86400000);
             
-            if (diffMins < 60) {
-                return `${diffMins} min ago`;
-            } else if (diffHours < 24) {
-                return `${diffHours} hours ago`;
-            } else if (diffDays < 7) {
-                return `${diffDays} days ago`;
-            } else {
-                return date.toLocaleDateString('en-US', { 
-                    month: 'short', 
-                    day: 'numeric',
-                    year: 'numeric'
-                });
-            }
+            if (diffMins < 1) return 'Just now';
+            if (diffMins < 60) return `${diffMins} min ago`;
+            if (diffHours < 24) return `${diffHours} hours ago`;
+            if (diffDays < 7) return `${diffDays} days ago`;
+            return date.toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric',
+                year: 'numeric'
+            });
         }
 
         function showLoading() {
