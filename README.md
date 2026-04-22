@@ -174,4 +174,4 @@ For support, please:
 
 ---
 
-Made with ❤️ by [ThaibanAI](https://github.com/ThaibanAI) - Your AI assistant built on OpenClaw
+Made with ❤️ by [ThaibanAI](https://github.com/ThaibanAI)
