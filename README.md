@@ -1,6 +1,6 @@
 # 📱 Mobile News Reader Web App
 
-A responsive mobile web application that fetches and displays the latest news from **Al Jazeera** and **Al Arabiya** using their RSS feeds.
+A responsive mobile web application that fetches and displays the latest news from **Al Jazeera**, **Al Arabiya** (general), and **Al Arabiya Tech** using their RSS feeds.
 
 ![News Reader App](https://img.shields.io/badge/Platform-Web-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -9,8 +9,8 @@ A responsive mobile web application that fetches and displays the latest news fr
 ## ✨ Features
 
 - **📱 Mobile-First Design**: Optimized for smartphones and tablets
-- **📰 Dual News Sources**: Real-time news from Al Jazeera and Al Arabiya
-- **🔍 Source Filtering**: Switch between sources or view all news
+- **📰 Three News Sources**: Real-time news from Al Jazeera, Al Arabiya (general), and Al Arabiya Tech
+- **🔍 Source Filtering**: Switch between individual sources or view all news combined
 - **🔄 Auto-Refresh**: Updates every 5 minutes automatically
 - **🎨 Modern UI**: Clean, card-based interface with smooth animations
 - **⚡ Fast Performance**: Pure HTML/CSS/JS with no heavy frameworks
@@ -82,12 +82,13 @@ news-reader-app/
 
 ### RSS Feeds Used
 - **Al Jazeera**: `https://www.aljazeera.com/xml/rss/all.xml`
-- **Al Arabiya**: `https://www.alarabiya.net/ar/feed`
+- **Al Arabiya**: `https://www.alarabiya.net/feed/rss2/ar.xml`
+- **Al Arabiya Tech**: `https://www.alarabiya.net/feed/rss2/ar/technology.xml`
 
 ### Technologies
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript (ES6+)
 - **RSS Parsing**: DOMParser API
-- **CORS Proxy**: api.allorigins.win
+- **RSS-to-JSON**: api.rss2json.com (server-side conversion, no CORS issues)
 - **Styling**: CSS Grid, Flexbox, CSS Variables
 - **Icons**: Font Awesome 6
 - **Responsive Design**: Mobile-first approach
@@ -124,7 +125,10 @@ The app uses:
 
 ## 🚧 Limitations
 
-1. **CORS Dependency**: Requires third-party proxy for RSS feeds
+1. **API Rate Limits**: rss2json.com may have rate limits for frequent requests
+2. **RSS Structure Changes**: May break if news sites change their feed format
+3. **Image Availability**: Some articles may not have images
+4. **Arabic Content**: Al Arabiya content is displayed in Arabic
 2. **RSS Structure Changes**: May break if news sites change their feed format
 3. **Image Availability**: Some articles may not have images
 4. **Arabic Content**: Al Arabiya content is displayed in Arabic
